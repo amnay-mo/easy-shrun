@@ -55,6 +55,6 @@ if device_configuration:
     print('updating configuration..')
     configuration_commands = device_configuration.splitlines()
     conn.send_config_set(configuration_commands)
-    msgbox("Configration Done!")
+    msgbox("Configuration Done!")
 else:
     print('configuration canceled')
